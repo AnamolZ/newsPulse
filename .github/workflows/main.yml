@@ -1,8 +1,6 @@
 name: News Scraper
 
 on:
-  schedule:
-    - cron: '*/5 * * * *'
   workflow_dispatch:
 
 jobs:
