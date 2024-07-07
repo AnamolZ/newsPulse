@@ -26,8 +26,8 @@ This project is a FastAPI application that scrapes news articles, summarizes the
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/AnamolZ/AIFeed.git
-    cd AIFeed
+    git clone https://github.com/AnamolZ/NewsBridge.git
+    cd NewsBridge
     ```
 
 2. **Install dependencies**:
