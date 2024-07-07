@@ -4,10 +4,12 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from bs4 import BeautifulSoup
 from pydantic import BaseModel
-from typing import List
-from datetime import datetime
 from pymongo.mongo_client import MongoClient
 from pymongo.server_api import ServerApi
+import google.generativeai as genai
+from PIL import Image
+from io import BytesIO
+from typing import List, Dict, Any, Optional
 
 FACEBOOK_PAGE_ID = os.environ.get('FACEBOOK_PAGE_ID')
 FACEBOOK_ACCESS_TOKEN = os.environ.get('FACEBOOK_ACCESS_TOKEN')
