@@ -12,20 +12,20 @@ The **newsPulse** is a FastAPI-based application designed to automate news curat
 ```
 newsPulse/
     ├── app/
-    │   ├── main.py                   # Main FastAPI app and API logic
-    │   ├── config.py                 # Configuration and environment variables
+    │   ├── main.py
+    │   ├── config.py               
     │   ├── services/
-    │   │   ├── news_fetcher.py       # Functions for fetching and parsing news articles
-    │   │   ├── image_handler.py      # Functions for downloading and saving images
-    │   │   ├── summarizer.py         # Function for summarizing articles using Gemini API
-    │   │   ├── social_media.py       # Functions for posting on Instagram and Facebook
+    │   │   ├── news_fetcher.py      
+    │   │   ├── image_handler.py     
+    │   │   ├── summarizer.py    
+    │   │   ├── social_media.py     
     │   ├── models/
-    │   │   └── news_item.py          # Pydantic model for NewsItem
-    ├── requirements.txt              # List of dependencies
-    ├── .env                          # Environment variables (not committed to version control)
-    ├── README.md                     # Project overview and instructions
-    ├── images/                       # Folder for saved images (make sure to ignore this folder in `.gitignore`)
-    └── run.py                        # Script to start the FastAPI app
+    │   │   └── news_item.py       
+    ├── requirements.txt           
+    ├── .env                       
+    ├── README.md                
+    ├── images/                   
+    └── run.py                   
 ```
 
 ## License
